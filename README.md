@@ -1,7 +1,7 @@
 # Design Patterns
 ## My implementation of some common Design Patterns.
 ## Language: C++
----
+
 These examples were took from the book [Head First Design Patterns: A Brain-Friendly Guide](https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124).
 
 I also based my implementation on the examples provided by the [Refactoring GURU](https://refactoring.guru/design-patterns).
