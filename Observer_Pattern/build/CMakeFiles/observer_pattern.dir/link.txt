@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/observer_pattern.dir/src/observer_pattern_node.cpp.o  -o observer_pattern 
