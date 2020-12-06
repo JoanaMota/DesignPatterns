@@ -33,7 +33,7 @@ It will:
 
 Execute the script as follows:
 ```console
-setup_package.py Observer
+$ setup_package.py Observer
 ```
 
 Note: This is only my implementation of these patterns so it can have some mistakes or things to be improved.
