@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/sim_duck.dir/src/sim_duck_node.cpp.o  -o sim_duck 

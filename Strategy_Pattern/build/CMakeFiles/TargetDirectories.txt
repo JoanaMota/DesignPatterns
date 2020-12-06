@@ -1,0 +1,3 @@
+/home/joana/Documents/JoanaLearning/DesignPatterns/Strategy/build/CMakeFiles/rebuild_cache.dir
+/home/joana/Documents/JoanaLearning/DesignPatterns/Strategy/build/CMakeFiles/sim_duck.dir
+/home/joana/Documents/JoanaLearning/DesignPatterns/Strategy/build/CMakeFiles/edit_cache.dir

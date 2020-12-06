@@ -1,0 +1,3 @@
+/home/joana/Documents/JoanaLearning/DesignPatterns/Observer_Pattern/build/CMakeFiles/rebuild_cache.dir
+/home/joana/Documents/JoanaLearning/DesignPatterns/Observer_Pattern/build/CMakeFiles/observer_pattern.dir
+/home/joana/Documents/JoanaLearning/DesignPatterns/Observer_Pattern/build/CMakeFiles/edit_cache.dir
