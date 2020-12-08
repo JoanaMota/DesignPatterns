@@ -20,6 +20,7 @@ int main()
     weatherData->updateMeasurements(4.0, 5.0, 6.0, 10.0);
     weatherData->updateMeasurements(10.0, 20.0, 30.0, 10.0);
     weatherData->updateMeasurements(40.0, 50.0, 60.0, 10.0);
+    weatherData->updateMeasurements(40.0, 50.0, 60.0, 10.0);
 
     delete statistics;
     std::cout << KGRN << "Number of Observers: " << weatherData->getNumberObservers() << RST << std::endl;

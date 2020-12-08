@@ -25,7 +25,7 @@ public:
 
 void CCurrentConditionsDisplay::print(std::string f_text)
 {
-    std::cout << KYEL << f_text << RST << std::endl;
+    std::cout << KWHT << f_text << RST << std::endl;
 }
 //
 CCurrentConditionsDisplay::CCurrentConditionsDisplay(CWeatherData &f_weatherSubj) : m_weatherSubj(f_weatherSubj)

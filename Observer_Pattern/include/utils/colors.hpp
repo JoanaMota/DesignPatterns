@@ -22,4 +22,13 @@
 #define BOLD(x) "\x1B[1m" x RST
 #define UNDL(x) "\x1B[4m" x RST
 
+void printError(std::string f_text)
+{
+    std::cout << KRED << f_text << RST << std::endl;
+}
+void printWarning(std::string f_text)
+{
+    std::cout << KYEL << f_text << RST << std::endl;
+}
+
 #endif /* _COLORS_ */
