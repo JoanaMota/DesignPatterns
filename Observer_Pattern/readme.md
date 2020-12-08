@@ -1,4 +1,10 @@
 # [The Observer Patter](https://refactoring.guru/design-patterns/observer)
+Defines a one-to-many dependency between objects sot that when one object changes state, all its dependents are notified and updated automatically.
+
+---
+## OO Principles:
+- Strive for loosely coupled designs between objects that interact.
+---
 ## Steps for creating the Weather Data Application:
 ### 1. Create Interfaces
 - Subject -> Weather Data
@@ -12,6 +18,7 @@
 
 ## Expected Output:
 ```
+Initializing Subject and Observers
 CWeatherData Constructed
 Hello! I am the Current Conditions Observer
 Hello! I am the Statistics Observer
@@ -30,6 +37,7 @@ The Heat Index is: 100.000000
 Current conditions are: 40.000000 degrees and 50.000000% of humidity.
 The Average Temperature is: 13.750000
 The Heat Index is: 400.000000
+Measurements are the same as previous. Observers will not be notified!
 I am the Statistics Observer and I remove myself from the observers list. Goodbye!
 Number of Observers: 2
 I am the Current Conditions Observer and I remove myself from the observers list. Goodbye!

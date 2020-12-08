@@ -1,4 +1,13 @@
 # [The Strategy Pattern](https://refactoring.guru/design-patterns/strategy)
+Defines a family of algorithms, encapsulates each one, and makes them interchangeable. 
+Strategy lets the algorithm vary independently from clients that use it.
+  
+---
+## OO Principles:
+- Encapsulate what varies.
+- Favor Composition oer Inheritance
+- Program to interfaces, not implementations.
+---
 ## Expected Output
 ```
 A Duck as been constructed
