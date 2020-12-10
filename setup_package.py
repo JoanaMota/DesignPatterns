@@ -48,3 +48,8 @@ print("CMake file created")
 src_file = os.path.join(src, src_file_name)
 os.mknod(src_file)
 print("Source file created")
+
+# Create Readme file
+readme_file = os.path.join(args.name, "readme.md")
+os.mknod(readme_file)
+print("Readme file created")
