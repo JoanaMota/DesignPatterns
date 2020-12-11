@@ -26,14 +26,14 @@ Beverage Constructed
 The House Blend costs: 0.89
 Beverage Constructed
 Constructing Soy
-The House Blend, Soy costs: 1.04
+The House Blend, Soy costs: 1.09
 Beverage Constructed
 Constructing Milk
-The House Blend, Soy, Steamed Milk costs: 1.14
+The House Blend, Soy, Steamed Milk costs: 1.19
 Beverage Constructed
 Constructing Milk
-The House Blend, Soy, Steamed Milk, Steamed Milk costs: 1.24
+The House Blend, Soy, Steamed Milk, Steamed Milk costs: 1.29
 Beverage Constructed
 Constructing Mocha
-The House Blend, Soy, Steamed Milk, Steamed Milk, Mocha costs: 1.44
+The House Blend, Soy, Steamed Milk, Steamed Milk, Mocha costs: 1.49
 ```
