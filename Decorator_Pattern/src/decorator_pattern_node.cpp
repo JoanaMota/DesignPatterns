@@ -8,6 +8,7 @@
 
 int main()
 {
+    CBeverage::ESize size = CBeverage::ESize::Venti;
     CBeverage *espresso = new CEspresso();
     std::cout << KORA
               << "The " << espresso->getDescription() << " costs: " << espresso->cost() << RST << std::endl;
@@ -21,7 +22,7 @@ int main()
     CBeverage *houseBlend = new CHouseBlend();
     std::cout << KORA
               << "The " << houseBlend->getDescription() << " costs: " << houseBlend->cost() << RST << std::endl;
-    houseBlend = new CSoy(houseBlend);
+    houseBlend = new CSoy(houseBlend, size);
     std::cout << KORA << "The " << houseBlend->getDescription() << " costs: " << houseBlend->cost() << RST << std::endl;
     houseBlend = new CMilk(houseBlend);
     std::cout << KORA << "The " << houseBlend->getDescription() << " costs: " << houseBlend->cost() << RST << std::endl;

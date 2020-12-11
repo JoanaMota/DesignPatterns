@@ -11,16 +11,17 @@ private:
     void print(std::string f_text);
 
 public:
-    CSoy(CBeverage *f_beverage);
+    CSoy(CBeverage *f_beverage, CBeverage::ESize f_size);
     ~CSoy();
     std::string getDescription(void) override;
     double cost(void) override;
 };
 
-CSoy::CSoy(CBeverage *f_beverage)
+CSoy::CSoy(CBeverage *f_beverage, CBeverage::ESize f_size)
 {
     print("Constructing Soy");
     m_beverage = f_beverage;
+    m_beverage->setSize(f_size);
 }
 std::string CSoy::getDescription(void)
 {
@@ -28,7 +29,20 @@ std::string CSoy::getDescription(void)
 }
 double CSoy::cost(void)
 {
-    return m_beverage->cost() + 0.15;
+    double cost = m_beverage->cost();
+    switch (m_beverage->getSize())
+    {
+    case Tall:
+        cost += 0.10;
+        break;
+    case Grande:
+        cost += 0.15;
+        break;
+    case Venti:
+        cost += 0.20;
+        break;
+    }
+    return cost;
 }
 
 void CSoy::print(std::string f_text)
