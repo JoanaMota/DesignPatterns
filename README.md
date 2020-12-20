@@ -11,6 +11,7 @@ I also based my implementation on the examples provided in the [Refactoring GURU
 ## Currently Implemented Design Patterns:
 - Strategy Pattern
 - Observer Pattern
+- Decorator Pattern
 
 ---
 

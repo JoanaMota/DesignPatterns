@@ -1,7 +1,8 @@
 # [The Decorator Patter](https://refactoring.guru/design-patterns/decorator) : Structural Design Pattern
-
+Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
 ---
 ## OO Principles:
+- **Open-Closed Principle-** Classes should be open for extension but closed for modification.
 ---
 ## Steps for creating the Starbuzz Coffee Application:
 1. Take a Espresso object
