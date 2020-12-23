@@ -9,19 +9,22 @@ class CPizzaStore
 public:
     CPizzaStore() {}
     ~CPizzaStore() {}
-    CPizza *orderPizza(std::string f_type);
+    CPizza *orderPizza(int f_type);
+    void printPizzas(void);
 
 protected:
     // Method that acts as a factory
     // abstract Product factoryMethod(String type)
-    virtual CPizza *createPizza(std::string f_type) const = 0;
+    virtual CPizza *createPizza(int f_type) const = 0;
     void print(std::string f_text) const
     {
         std::cout << KBLU2 << f_text << RST << std::endl;
     }
+
+    std::vector<std::string> m_pizzas;
 };
 
-CPizza *CPizzaStore::orderPizza(std::string f_type)
+CPizza *CPizzaStore::orderPizza(int f_type)
 {
     std::cout << KBLU << "Pizza Store: Creating Pizza" << RST << std::endl;
     CPizza *pizza;
@@ -42,6 +45,14 @@ CPizza *CPizzaStore::orderPizza(std::string f_type)
     }
 
     return pizza;
+}
+
+void CPizzaStore::printPizzas(void)
+{
+    for (int it = 0; it < m_pizzas.size(); it++)
+    {
+        print(std::to_string(it) + " - " + m_pizzas[it]);
+    }
 }
 
 #endif /* PIZZA_STORE_HPP */

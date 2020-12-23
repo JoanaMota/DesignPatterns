@@ -38,5 +38,28 @@ The Concrete Creators are the only ones with knowledge of how to create the Conc
 ![](PizzaFactory.png)
 ## Expected Output:
 ```
-
+APP: We need a Pizza store in Chicago, New York and California
+Constructing a California Pizza store
+Constructing a New York Pizza store
+Constructing a California Pizza store
+APP: Select Store:
+ 0 - Chicago
+ 1 - New York
+ 2 - California
+0
+APP: Select Pizza type:
+0 - Cheese
+1 - Clam
+2 - Veggie
+1
+Pizza Store: Creating Pizza
+Preparing Chicago Clam Pizza
+Tossing dough which will be Extra Thick Crust
+Adding Plum Tomato Sauce
+Adding Toppings:
+ - Clams
+Baking Pizza
+Cutting Pizza into diagonal slices
+Boxing Pizza
+You ordered a Chicago Clam Pizza
 ```

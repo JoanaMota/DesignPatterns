@@ -2,43 +2,42 @@
 #define CHICAGO_PIZZA_STORE_HPP
 
 #include "creator/pizza_store.hpp"
-#include "concrete_products/cheese_pizza.hpp"
+#include "concrete_products/chicago_pizzas.hpp"
 
 class CChicagoPizzaStore : public CPizzaStore
 {
 public:
     CChicagoPizzaStore()
     {
-        print("Constructing a Chicago Pizza store");
+        print("Constructing a California Pizza store");
+        m_pizzas.push_back("Cheese");
+        m_pizzas.push_back("Clam");
+        m_pizzas.push_back("Veggie");
     }
     ~CChicagoPizzaStore()
     {
-        print("Destructing a Chicago Pizza store");
+        print("Destructing a California Pizza store");
     }
-    CPizza *createPizza(std::string f_type) const override;
+    CPizza *createPizza(int f_type) const override;
 };
 
-CPizza *CChicagoPizzaStore::createPizza(std::string f_type) const
+CPizza *CChicagoPizzaStore::createPizza(int f_type) const
 {
-    if ("cheese" == f_type)
+    if ("Cheese" == m_pizzas[f_type])
     {
         return new CChicagoCheesePizza();
     }
-    // else if ("veggie")
-    // {
-    //     /* code */
-    // }
-    // else if ("clam")
-    // {
-    //     /* code */
-    // }
-    // else if ("pepperoni")
-    // {
-    //     /* code */
-    // }
+    else if ("Clam" == m_pizzas[f_type])
+    {
+        return new CChicagoClamPizza();
+    }
+    else if ("Veggie" == m_pizzas[f_type])
+    {
+        return new CChicagoVeggiePizza();
+    }
     else
     {
-        print("Not a Pizza option");
+        printError("Not a Pizza option");
         return NULL;
     }
 }

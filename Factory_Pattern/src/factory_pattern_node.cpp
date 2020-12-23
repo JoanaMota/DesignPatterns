@@ -1,8 +1,8 @@
 #include <iostream>
+#include <assert.h>
 #include "concrete_creators/chicago_pizza_store.hpp"
 #include "concrete_creators/ny_pizza_store.hpp"
 #include "concrete_creators/california_pizza_store.hpp"
-#include "client.hpp"
 
 int main()
 {
@@ -11,29 +11,55 @@ int main()
     CPizzaStore *pizzaStoreNY = new CNYPizzaStore();
     CPizzaStore *pizzaStoreCalifornia = new CCaliforniaPizzaStore();
 
-    // CClient *joana = new CClient(pizzaStoreChicago);
+    std::cout << "APP: Select Store:" << std::endl;
+    std::cout << " 0 - Chicago" << std::endl;
+    std::cout << " 1 - New York" << std::endl;
+    std::cout << " 2 - California" << std::endl;
+    int storeNumber;
+    std::cin >> storeNumber;
 
-    std::cout << "Joana ordering" << std::endl;
-    CPizza *pizzaClient1 = pizzaStoreChicago->orderPizza("cheese");
-    if (pizzaClient1 != NULL)
+    CPizza *pizza = NULL;
+
+    std::cout << "APP: Select Pizza type:" << std::endl;
+    switch (storeNumber)
     {
-        std::cout << "Joana ordered a " << pizzaClient1->getName() << std::endl;
+    case 0:
+        pizzaStoreChicago->printPizzas();
+        int chicagoPizzaNumber;
+        std::cin >> chicagoPizzaNumber;
+        pizza = pizzaStoreChicago->orderPizza(chicagoPizzaNumber);
+        if (pizza != NULL)
+        {
+            std::cout << "You ordered a " << pizza->getName() << std::endl;
+        }
+        break;
+    case 1:
+        pizzaStoreNY->printPizzas();
+        int nyPizzaNumber;
+        std::cin >> nyPizzaNumber;
+        pizza = pizzaStoreNY->orderPizza(nyPizzaNumber);
+        if (pizza != NULL)
+        {
+            std::cout << "You ordered a " << pizza->getName() << std::endl;
+        }
+        break;
+    case 2:
+        pizzaStoreCalifornia->printPizzas();
+        int californiaPizzaNumber;
+        std::cin >> californiaPizzaNumber;
+        pizza = pizzaStoreCalifornia->orderPizza(californiaPizzaNumber);
+        if (pizza != NULL)
+        {
+            std::cout << "You ordered a " << pizza->getName() << std::endl;
+        }
+        break;
+
+    default:
+        printError("Store Not defined");
+        break;
     }
 
-    std::cout << "Miguel ordering" << std::endl;
-    CPizza *pizzaClient2 = pizzaStoreNY->orderPizza("cheese");
-    if (pizzaClient2 != NULL)
-    {
-        std::cout << "Miguel ordered a " << pizzaClient2->getName() << std::endl;
-    }
-
-    std::cout << "Joao ordering" << std::endl;
-    CPizza *pizzaClient3 = pizzaStoreCalifornia->orderPizza("cheese");
-    if (pizzaClient3 != NULL)
-    {
-        std::cout << "Joao ordered a " << pizzaClient3->getName() << std::endl;
-    }
-
+    delete pizza;
     delete pizzaStoreChicago;
     delete pizzaStoreCalifornia;
     delete pizzaStoreNY;
