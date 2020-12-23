@@ -12,7 +12,7 @@ I also based my implementation on the examples provided in the [Refactoring GURU
 - Strategy Pattern
 - Observer Pattern
 - Decorator Pattern
-
+- Factory Method Pattern
 ---
 
 ## Compilation
