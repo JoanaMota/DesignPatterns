@@ -1,5 +1,5 @@
-#ifndef CLAM_PIZZA_HPP
-#define CLAM_PIZZA_HPP
+#ifndef CALIFORNIA_PIZZA_HPP
+#define CALIFORNIA_PIZZA_HPP
 
 #include "product/pizza.hpp"
 
@@ -52,4 +52,4 @@ CCaliforniaPepperoniPizza::CCaliforniaPepperoniPizza()
     m_toppings.push_back("Pepperoni");
 }
 
-#endif /* CLAM_PIZZA_HPP */
+#endif /* CALIFORNIA_PIZZA_HPP */
