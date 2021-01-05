@@ -3,6 +3,18 @@ The Factory Method Pattern defines an interface for creating an object, but lets
 
 ---
 ## OO Principles:
+### The Dependency Inversion Principle
+Depend upon abstractions. Do not depend upon concrete classes.
+
+The code should be written depending on abstractions, not concrete classes. Both high-level and low-level components should depend on abstractions.
+
+Violations of the DIP:
+- No variable should hold a reference to a concrete class 
+> Joana's Comment: Yup! But in Java and C++ you will probably still have to instantiate at least one object so ... But we should make sure to only instantiate classes that we are sure will not change.
+- No class should derive from a concrete class 
+> Joana's Comment: Yup it makes since you would be always dependent on that concrete class.
+- No method should override an implemented method of any of its base classes.
+> Joana's Comment: Yes, this would just be bad design no? But I still did it with the cut() method just because I want one of the child classes to be different, is this ok?  :confused:
 ---
 ## Steps for creating the Pizza Factory:
 ### Create the Product:
