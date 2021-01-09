@@ -13,6 +13,7 @@ I also based my implementation on the examples provided in the [Refactoring GURU
 - Observer Pattern
 - Decorator Pattern
 - Factory Method Pattern
+- Abstract Factory Pattern
 ---
 
 ## Compilation

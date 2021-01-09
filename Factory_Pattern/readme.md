@@ -15,6 +15,7 @@ Violations of the DIP:
 > Joana's Comment: Yup it makes since you would be always dependent on that concrete class.
 - No method should override an implemented method of any of its base classes.
 > Joana's Comment: Yes, this would just be bad design no? But I still did it with the cut() method just because I want one of the child classes to be different, is this ok?  :confused:
+
 ---
 ## Steps for creating the Pizza Factory:
 ### Create the Product:

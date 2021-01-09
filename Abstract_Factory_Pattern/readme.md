@@ -7,6 +7,7 @@ Both the Factory and Abstract Factory encapsulate object creation and lead to mo
 ## OO Principles:
 ### The Dependency Inversion Principle
 Depend upon abstractions. Do not depend upon concrete classes.
+
 ---
 ## Steps for creating the Pizza Factory:
 ## Expected Output Example:
