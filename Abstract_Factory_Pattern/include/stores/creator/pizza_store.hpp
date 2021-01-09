@@ -1,7 +1,7 @@
 #ifndef PIZZA_STORE_HPP
 #define PIZZA_STORE_HPP
 
-#include "product/pizza.hpp"
+#include "pizzas/product/pizza.hpp"
 #include "utils/colors.hpp"
 
 class CPizzaStore
