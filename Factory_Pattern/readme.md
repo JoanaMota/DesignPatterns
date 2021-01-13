@@ -17,30 +17,27 @@ Violations of the DIP:
 > Joana's Comment: Yes, this would just be bad design no? But I still did it with the cut() method just because I want one of the child classes to be different, is this ok?  :confused:
 
 ---
-## Steps for creating the Pizza Factory:
-### Create the Product:
-**Pizza**
+## Steps for creating the **Pizza Factory**:
+### Create the Product
+Pizza
 ### Create the Concrete Products:
 All the products produced by a concrete creator:
 
-**- NYCheesePizza**
-
-**- NYClamPizza**
-
-**- ChicagoCheesePizza**
-
-**- ChicagoClamPizza**
+- NYCheesePizza
+- NYClamPizza
+- ChicagoCheesePizza
+- ChicagoClamPizza
 
 ...
 ### Create the Creator:
-**Pizza Store**
+Pizza Store
 
 This is the one responsible for creating the abstract *Factory Method*(`createPizza()`).
 
 The creator never really knows which concrete product was produced.
 
 ### Create the Concrete Creators
-**Pizza Stores**
+Pizza Stores
 
 These are responsible for overriding the base *Factory Method* so it returns a different type of product. The *Factory Method* is the one responsible for producing products. 
 
