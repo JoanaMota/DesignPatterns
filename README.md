@@ -9,11 +9,11 @@ I also based my implementation on the examples provided in the [Refactoring GURU
 ---
 
 # Currently Implemented Design Patterns:
-- [[Strategy Pattern|The Strategy Pattern]]
-- [[Observer Pattern|The Observer Pattern]]
-- [[Decorator Pattern|The Decorator Pattern]]
-- [[Factory Method Pattern|The Factory Method Pattern]]
-- [[Abstract Factory Method Pattern|The Abstract Factory Method Pattern]]
+- [The Strategy Pattern](https://github.com/JoanaMota/DesignPatterns/wiki/The-Strategy-Pattern)
+- [The Observer Pattern](https://github.com/JoanaMota/DesignPatterns/wiki/The-Observer-Pattern)
+- [The Decorator Pattern](https://github.com/JoanaMota/DesignPatterns/wiki/The-Decorator-Pattern)
+- [The Factory Method Pattern](https://github.com/JoanaMota/DesignPatterns/wiki/The-Factory-Method-Pattern)
+- [The Abstract Factory Method Pattern](https://github.com/JoanaMota/DesignPatterns/wiki/The-Abstract-Factory-Method-Pattern)
 ---
 
 # Compilation
