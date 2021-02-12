@@ -1,6 +1,6 @@
 # Design Patterns
-## My implementation of some common Design Patterns.
-## Language: C++
+**My implementation of some common Design Patterns.**
+# Language: C++
 
 These examples were taken from the book [Head First Design Patterns: A Brain-Friendly Guide](https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124).
 
@@ -8,15 +8,15 @@ I also based my implementation on the examples provided in the [Refactoring GURU
 
 ---
 
-## Currently Implemented Design Patterns:
-- Strategy Pattern
-- Observer Pattern
-- Decorator Pattern
-- Factory Method Pattern
-- Abstract Factory Pattern
+# Currently Implemented Design Patterns:
+- [[Strategy Pattern|The Strategy Pattern]]
+- [[Observer Pattern|The Observer Pattern]]
+- [[Decorator Pattern|The Decorator Pattern]]
+- [[Factory Method Pattern|The Factory Method Pattern]]
+- [[Abstract Factory Method Pattern|The Abstract Factory Method Pattern]]
 ---
 
-## Compilation
+# Compilation
 I used CMake for building the packages.
 
 To build the Design Pattern just do the following:
@@ -25,7 +25,7 @@ To build the Design Pattern just do the following:
 3. Also inside the created build folder run `make` for building and linking;
 4. Execute the program.
 
-## Setup new Packages
+# Setup new Packages
 The script `setup_package.py` can be used to setup a new clean package.
 It will:
 - Create a folder for the desired Pattern;
