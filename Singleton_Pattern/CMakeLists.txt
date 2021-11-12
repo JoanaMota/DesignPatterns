@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.0.0)
+project(singleton_pattern VERSION 0.1.0)
+include_directories(include)
+add_executable(singleton_pattern src/singleton_pattern_node.cpp)
+find_package(Threads REQUIRED)
+target_link_libraries(singleton_pattern Threads::Threads)
