@@ -15,6 +15,10 @@ I also based my implementation on the examples provided in the [Refactoring GURU
 - [The Factory Method Pattern : Creational](https://github.com/JoanaMota/DesignPatterns/wiki/The-Factory-Method-Pattern)
 - [The Abstract Factory Method Pattern : Creational](https://github.com/JoanaMota/DesignPatterns/wiki/The-Abstract-Factory-Method-Pattern)
 - [Singleton Pattern : Creational](https://github.com/JoanaMota/DesignPatterns/wiki/The-Singleton-Pattern)
+
+:star: [The comparison between the different patterns can be found here](https://github.com/JoanaMota/DesignPatterns/wiki/Home)
+
+Note: These are only my implementation of the patterns so it can have some mistakes or things to be improved.
 ---
 
 # Compilation
@@ -39,4 +43,3 @@ Execute the script as follows:
 $ setup_package.py Observer
 ```
 
-Note: This is only my implementation of these patterns so it can have some mistakes or things to be improved.
