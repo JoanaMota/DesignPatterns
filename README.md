@@ -15,6 +15,7 @@ I also based my implementation on the examples provided in the [Refactoring GURU
 - [The Factory Method Pattern : Creational](https://github.com/JoanaMota/DesignPatterns/wiki/The-Factory-Method-Pattern)
 - [The Abstract Factory Method Pattern : Creational](https://github.com/JoanaMota/DesignPatterns/wiki/The-Abstract-Factory-Method-Pattern)
 - [Singleton Pattern : Creational](https://github.com/JoanaMota/DesignPatterns/wiki/The-Singleton-Pattern)
+- [Command Pattern : Behavioral](https://github.com/JoanaMota/DesignPatterns/wiki/The-Command-Pattern)
 
 :star: [The comparison between the different patterns can be found here](https://github.com/JoanaMota/DesignPatterns/wiki/Home)
 
