@@ -18,6 +18,7 @@ I also based my implementation on the examples provided in the [Refactoring GURU
 - [The Command Pattern : Behavioral](https://github.com/JoanaMota/DesignPatterns/wiki/The-Command-Pattern)
 - [The Adapter Pattern : Structural](https://github.com/JoanaMota/DesignPatterns/wiki/The-Adapter-Pattern)
 - [The Facade Pattern : Structural](https://github.com/JoanaMota/DesignPatterns/wiki/The-Facade-Pattern)
+- [The Template Method Pattern : Behavioral](https://github.com/JoanaMota/DesignPatterns/wiki/The-Template-Method-Pattern)
 
 :star: [The comparison between the different patterns can be found here](https://github.com/JoanaMota/DesignPatterns/wiki/Home)
 
