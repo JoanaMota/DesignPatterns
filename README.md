@@ -23,6 +23,9 @@ I also based my implementation on the examples provided in the [Refactoring GURU
 :star: [The comparison between the different patterns can be found here](https://github.com/JoanaMota/DesignPatterns/wiki/Home)
 
 Note: These are only my implementation of the patterns so it can have some mistakes or things to be improved.
+
+## Other Patterns:
+- [The Curiously Recurring Template Pattern (CRTP)](https://www.fluentcpp.com/2017/05/12/curiously-recurring-template-pattern/): Consists in inheriting from a template class and use the derived class itself as a template parameter of the base class. This way we can use the derived class in the base class by downcasting the `this` pointer through a `static_cast<>`. In this regard, the derived class offers an interface to the base class. Another usage of the CRTP is to create **static interfaces**.
 ---
 
 # Compilation
